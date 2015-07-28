@@ -4,4 +4,4 @@ Simple tool to count the number of key strokes using Atom.
 
 It is per window.
 
-![Example](./AtomEditor.gif)
+![Example](https://raw.githubusercontent.com/soapskyway/keycount/master/AtomEditor.gif)
