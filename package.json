@@ -1,0 +1,19 @@
+{
+  "name": "KeyCount",
+  "main": "./lib/keycount",
+  "version": "0.0.0",
+  "description": "Counts key strokes and displays them in a panel",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "keycount:toggle"
+  },
+  "repository": "https://github.com/soapskyway/keycount",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3"
+  }
+}
