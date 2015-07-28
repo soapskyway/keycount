@@ -1,10 +1,9 @@
 {
   "name": "KeyCount",
   "main": "./lib/keycount",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Counts key strokes and displays them in a panel",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "keycount:toggle"
   },
