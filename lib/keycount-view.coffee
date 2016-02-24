@@ -68,7 +68,7 @@ class KeycountView extends View
       @update(keystrokes, binding, keyboardEventTarget)
 
     @disposables.add atom.keymaps.onDidPartiallyMatchBindings ({keystrokes, partiallyMatchedBindings, keyboardEventTarget}) =>
-      @updatePartial(keystrokes, partiallyMatchedBindings)
+      @update(keystrokes, partiallyMatchedBindings)
 
     @disposables.add atom.keymaps.onDidFailToMatchBinding ({keystrokes, keyboardEventTarget}) =>
       @update(keystrokes, null, keyboardEventTarget)
