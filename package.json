@@ -1,7 +1,7 @@
 {
   "name": "KeyCount",
   "main": "./lib/keycount",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Counts key strokes and displays them in a panel",
   "keywords": [],
   "activationCommands": {
